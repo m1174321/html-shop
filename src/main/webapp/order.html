@@ -1,0 +1,205 @@
+<meta name="format-detection" content="telephone=no" xmlns="http://www.w3.org/1999/html"/>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>订单结算页 -京东商城</title>
+<!--结算页面样式-->
+<link rel="stylesheet" href="//sp.jd.com/payment/1.2.0/css/bankList.css" charset="utf-8">
+<link type="text/css" rel="stylesheet"  href="//misc.360buyimg.com/user/purchase/2.0.0/widget/??common/common.css,header-2017/header-2017.css,consignee-scroll/consignee-scroll.css,consignee-selfpick/consignee-selfpick.css,payment-step/payment-step.css,presale-step/presale-step.css,shopping-list/shopping-list.css,invoice-dialog/invoice-dialog.css,order-virtual/order-virtual.css,order-summary/order-summary.css,checkout-floatbar/checkout-floatbar.css,paypwd/paypwd.css,/delivery-calendar-freight/delivery-calendar-freight.css,backpanel/backpanel.css" source="widget"/>
+<link type="text/css" rel="stylesheet"  href="//misc.360buyimg.com/jdf/1.0.0/unit/??ui-base/5.0.0/ui-base.css,shortcut/5.0.0/shortcut.css,global-header/5.0.0/global-header.css,myjd/5.0.0/myjd.css,nav/5.0.0/nav.css,shoppingcart/5.0.0/shoppingcart.css,global-footer/5.0.0/global-footer.css,service/5.0.0/service.css"/>
+<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="//misc.360buyimg.com/jdf/1.0.0/unit/??base/5.0.0/base.js,basePatch/1.0.0/basePatch.js"></script>
+<script type="text/javascript" src="//misc.360buyimg.com/user/purchase/2.0.0/js/cookieTrack_v4.js"></script>
+
+<script type="text/javascript" src="//trade.jd.com/shopping/misc/js/order.common.js?r=20180208"></script>
+<script type="text/javascript" src="//trade.jd.com/shopping/misc/js/jquery.checkout.js?v=03091"></script>
+<script type="text/javascript"  src="//trade.jd.com/static/js/lib/other/class.mini.js" /></script>
+<link type="text/css" rel="stylesheet" href="//misc.360buyimg.com/user/purchase/2.0.0/widget/delivery-calendar-new/delivery-calendar-new.css" />
+    <script>
+var newVersionTrade=1;
+</script>
+<head>
+
+</head>
+
+<body>
+<div id="container">
+  <div id="content" class="w">
+
+    <!--<div class="mc">-->
+    <div class="checkout-steps">
+      <!--  /widget/consignee-step/consignee-step.tpl -->
+      <div class="step-tit">
+        <h3>收货人信息</h3>
+        <div class="tips-new-white hide" id="tariffTip"><b></b><span>目的国/地区如产生关税及其它相关费用，需用户自行承担</span></div>
+        <div class="tips-new-white hide" id="hkTip"><b></b><span>收货地址为住宅时，需向配送员支付住宅附加费：20港币/单</span></div>
+        <div class="extra-r">
+          <a href="#none" onclick="addSite()">新增收货地址</a>
+          <!--<a href="#none" class="ftx-05" onclick="use_NewConsignee()" clstag="pageclick|keycount|trade_201602181|3">新增收货地址</a>-->
+          <input type="hidden" id="del_consignee_type" value="0"/>
+        </div>
+      </div>
+      <div class="step-cont">
+
+        <div id="consignee-addr" class="consignee-content">
+          <div class="consignee-scrollbar">
+            <div class="ui-scrollbar-main">
+              <div class="consignee-scroll">
+                <div class="consignee-cont" id="consignee1">
+                  <ul id="productCart">
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+    <div id="radioDiv">
+      在线支付： <input type="radio" name='zhifuRadio' value="1" checked class="radio-inline">
+      货到付款：<input type="radio" name='zhifuRadio' value="2" class="radio-inline">
+    </div>
+
+
+    <div>
+      <h3>订单信息</h3>
+      <table border="1" id="detailDiv">
+
+      </table>
+    </div>
+
+  <span>共计：<span id = "gongjiSpan_wxwu"></span></span>
+    <a href="#none" onclick="toOrderAdd()"><h2>提交</h2></a>
+  </div>
+</div>
+
+</div>
+
+<script>
+    $(function () {
+        initAddRess();
+        initProductGwcRedis();
+        //生成一个请求的唯一标示
+        sendFlag=new Date().getTime();
+    })
+
+    $.ajaxSetup({
+        headers:{
+            "token":sessionStorage.getItem("login_token")
+        },
+    })
+
+    function initAddRess() {
+        $.post({
+            url:"http://localhost:8087/car/findAddRess",
+            dataType:"json",
+            success:function (rs) {
+                if(rs.code == 10000){
+                    location.href="login.html"
+                }else{
+                    var addressList = rs.data;
+                    var tempHtml ="";
+                    var radioHtml="";
+                    for (var i = 0; i < addressList.length; i++) {
+                        address = addressList[i];
+                        if(address.status == true){
+                            radioHtml = "<input type='radio' value='"+address.id+"' checked name='name'>";
+                        }else{
+                            radioHtml ="<input type='radio' value='"+address.id+"'  name='name'>";
+                        }
+                        tempHtml +="<li  class='ui-switchable-panel ui-switchable-panel-selected'    style='display: list-item;'  id='consignee_index_1970138804' selected='selected' style='cursor: pointer;' c_li_custom_label='consignee_li'>\n" +
+                            " <div  class='consignee-item item-selected'  longitude='113.543983' gcLng='113.53826' latitude='34.80623' gcLat='34.80481' consigneeId='1970138804' provinceId='7' cityId='412' countyId='47301' townId='0' idcard=''  consigneeType='0' clstag='pageclick|keycount|trade_201602181|1' c_div_custom_label='consignee_div'>\n" +
+                            " &lt;!&ndash;<span limit='8'>吴某人</span>&ndash;&gt;\n" +
+                            radioHtml +
+                            " </div>\n" +
+                            "  <div class='addr-detail'>\n" +
+                            "    <span class='addr-name' limit='6'>"+address.name+"</span>\n" +
+                            "    <span class='addr-info' limit='45'>"+address.areaIds+"</span>\n" +
+                            "    <span class='addr-tel'>"+address.detailAdd+"</span>\n" +
+                            "    <span class='addr-tel'>"+address.iphone+"</span>\n" +
+                            "    </div>\n" +
+                            " </li>";
+                    }
+                    $("#productCart").html(tempHtml);
+                }
+            },error:function () {
+                alert("后台错误")
+            }
+        })
+    }
+
+
+
+    function initProductGwcRedis() {
+        $.post({
+            url:"http://localhost:8087/car/findProductGwcRedis",
+            dataType:"json",
+            success:function (rs) {
+                if(rs.code == 10000){
+                    location.href="login.html"
+                }else{
+                    var productGwcList =  rs.data;
+                    var productGwcHtml = "<tr>\n" +
+                        "            <td>商品名称</td>\n" +
+                        "            <td>价格</td>\n" +
+                        "            <td>数量</td>\n" +
+                        "            <td>总价</td>\n" +
+                        "            <td>图片</td>\n" +
+                        "        </tr>";
+                    var totalMoney = 0;
+                    for (var i = 0; i < productGwcList.length; i++) {
+                        var productGwc = productGwcList[i];
+                        totalMoney +=productGwc.money;
+                        productGwcHtml+= '         <tr> <td>'+productGwc.productName+'</td>\n' +
+                            '          <td>'+productGwc.price+'</td>\n' +
+                            '          <td>'+productGwc.productcount+'</td>\n' +
+                            '          <td>'+productGwc.money+'</td>\n' +
+                            '          <td><img src="'+productGwc.productImg+'" width="100px" height="100px"/></td>\n' +
+                            '        </tr>';
+                    }
+                    $("#detailDiv").html(productGwcHtml);
+                    $("#gongjiSpan_wxwu").text(totalMoney);
+                }
+            },error:function () {
+                alert("后台错误")
+            }
+        })
+    }
+
+    var sendFlag;
+    function toOrderAdd(){
+        var addRessId = $("input[name=name]:checked").val();
+        var payTypeId = $("input[name=zhifuRadio]:checked").val();
+        $.post({
+            url:"http://localhost:8087/car/addOrderAddRess",
+            dataType:"json",
+            data:{
+                "addRessId":addRessId,
+                "payTypeId":payTypeId,
+                "falg":sendFlag
+            },
+            success:function (rs) {
+                if(rs.code == 10000){
+                    location.href="login.html";
+                }else if (rs.code==203) {
+                  alert("请求处理中 不要多次点击")
+                }else if (rs.code==20000) {
+                    alert(rs.message);
+                }else{
+                   var orderId = JSON.stringify(rs.data.orderId)
+                    var moneyAll = JSON.stringify(rs.data.moneyAll)
+                    sessionStorage.setItem("orderId",orderId);
+                    sessionStorage.setItem("moneyAll",moneyAll)
+                    location.href="weixin.html";
+                }
+            },error:function () {
+
+            }
+        });
+    }
+
+
+</script>
+</body>
+</html>

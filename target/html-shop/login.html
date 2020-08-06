@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="./res/static/css/main.css">
+  <link rel="stylesheet" type="text/css" href="./res/layui/css/layui.css">
+  <script type="text/javascript" src="./res/layui/layui.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+
+
+    <!-- 引入bootstrap -->
+    <link href="./js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <script src="./js/bootbox/bootbox.all.min.js"></script>
+
+    <link href="./js/bootstrap-fileinput-v5.0.6-17/css/fileinput.css" rel="stylesheet" type="text/css">
+    <script src="./js/bootstrap-fileinput-v5.0.6-17/js/fileinput.js"></script>
+
+    <link href="./js/bootstrapvalidator-v0.5.2-0/dist/css/bootstrapValidator.css" rel="stylesheet" type="text/css">
+    <script src="./js/bootstrapvalidator-v0.5.2-0/dist/js/bootstrapValidator.js"></script>
+
+    <link href="/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" rel="stylesheet" type="text/css">
+    <script src="/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>
+    <script src="/js/bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+</head>
+<body>
+
+  <div class="site-nav-bg">
+    <div class="site-nav w1200">
+      <p class="sn-back-home">
+        <i class="layui-icon layui-icon-home"></i>
+        <a href="#">首页</a>
+      </p>
+      <div class="sn-quick-menu">
+        <div class="login"><a href="orderData.html">订单查询</a></div>
+        <div class="login"><a href="login.html">登录</a></div>
+        <div class="sp-cart"><a href="shopcart.html">购物车</a><span>2</span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="header">
+    <div class="headerLayout w1200">
+      <div class="headerCon">
+        <h1 class="mallLogo">
+          <a href="#" title="母婴商城">
+            <img src="../res/static/img/logo.png">
+          </a>
+        </h1>
+        <div class="mallSearch">
+          <form action="" class="layui-form" novalidate>
+            <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">
+                <i class="layui-icon layui-icon-search"></i>
+            </button>
+            <input type="hidden" name="" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="content content-nav-base  login-content">
+    <div class="main-nav">
+      <div class="inner-cont0">
+        <div class="inner-cont1 w1200">
+          <div class="inner-cont2">
+            <a href="commodity.html" class="active">所有商品</a>
+            <a href="buytoday.html">今日团购</a>
+            <a href="information.html">母婴资讯</a>
+            <a href="about.html">关于我们</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="login-bg">
+      <div class="login-cont w1200">
+        <div class="form-box">
+          <form class="layui-form" action="">
+            <legend>手机号登录</legend>
+            <div class="layui-form-item">
+              <div class="layui-inline iphone">
+                <div class="layui-input-inline">
+                  <i class="layui-icon layui-icon-cellphone iphone-icon"></i>
+                  <input type="tel" name="phone" id="phone" lay-verify="required|phone" placeholder="请输入手机号" autocomplete="off" class="layui-input">
+                </div>
+              </div>
+              <div class="layui-inline veri-code">
+                <div class="layui-input-inline">
+                  <input id="pnum" type="text" name="pnum" lay-verify="required" placeholder="请输入验证码" autocomplete="off" class="layui-input">
+                  <input type="button" class="layui-btn" id="find" onclick="queryCode()" value="验证码" />
+                </div>
+              </div>
+            </div>
+            <div class="layui-form-item login-btn">
+              <div class="layui-input-block">
+                <button type="button" class="layui-btn" lay-submit="" lay-filter="demo1" onclick="login()">登录</button>
+                <br><br>
+                <button type="button" class="layui-btn-warm" lay-filter="demo1" onclick="regin()">注册</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="ng-promise-box">
+      <div class="ng-promise w1200">
+        <p class="text">
+          <a class="icon1" href="javascript:;">7天无理由退换货</a>
+          <a class="icon2" href="javascript:;">满99元全场免邮</a>
+          <a class="icon3" style="margin-right: 0" href="javascript:;">100%品质保证</a>
+        </p>
+      </div>
+    </div>
+    <div class="mod_help w1200">                                     
+      <p>
+        <a href="javascript:;">关于我们</a>
+        <span>|</span>
+        <a href="javascript:;">帮助中心</a>
+        <span>|</span>
+        <a href="javascript:;">售后服务</a>
+        <span>|</span>
+        <a href="javascript:;">母婴资讯</a>
+        <span>|</span>
+        <a href="javascript:;">关于货源</a>
+      </p>
+      <p class="coty">母婴商城版权所有 &copy; 2012-2020</p>
+    </div>
+  </div>
+
+  <div id="vipZhuCeDiv" style="display: none">
+      <form id="vipZhuCeForm" class="form-horizontal" role="form">
+          <div class="form-group">
+              <label class="col-sm-2 control-label">用户名:</label>
+              <div class="col-sm-10">
+                  <input class="form-control" id="addUserName" name="addUserName" type="text">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-sm-2 control-label">手机号:</label>
+              <div class="col-sm-10">
+                  <input class="form-control" id="addUserPhone" name="addUserPhone" type="text">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-sm-2 control-label">生日：</label>
+              <div class="col-sm-10">
+                  <input class="form-control" id="addBrithday" type="text">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-sm-2 control-label">头像:</label>
+              <div class="col-sm-10">
+                  <input id="addImg" name="img" type="file">
+                  <input type="hidden"  id="imgValue">
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label  class="col-sm-2 control-label">地区</label>
+              <div class="col-sm-10">
+                  <select class="select-box" id="provice" onchange="showCity()">
+
+                  </select>
+                  <select class="select-box" id="city" onchange="showCounty()">
+                      <option value="-1">请选择市级</option>
+                  </select>
+                  <select class="select-box" id="county">
+                      <option value="-1">请选择县级</option>
+                  </select>
+              </div>
+          </div>
+
+          <div class="form-group">
+              <label class="col-sm-2 control-label"></label>
+              <div class="col-sm-10">
+                  <input class="btn btn-success" onclick="addVip()" value="注册"  type="button">
+              </div>
+          </div>
+
+
+      </form>
+  </div>
+
+  <script type="text/javascript">
+
+
+
+      var countdown=60;
+      function settime(obj) {
+          if (countdown == 0) {
+              obj.removeAttribute("disabled");
+              obj.classList.remove("layui-btn-disabled")
+              obj.value="获取验证码";
+              countdown = 60;
+              return;
+          } else {
+              obj.value="重新发送(" + countdown + ")";
+              countdown--;
+          }
+          setTimeout(function() {
+                  settime(obj) }
+              ,1000)
+      }
+
+
+      function queryCode() {
+          var iphone=$("#phone").val();
+          if(iphone!=null){
+              $.post({
+                  url:"http://localhost:8087/user/smsPhoneCode",
+                  dataType:"json",
+                  data:{"phone":iphone},
+                  success:function (rs) {
+                      if(rs.code==200){
+                          $("#find").addClass(" layui-btn-disabled");
+                          $('#find').attr('disabled',"true");
+                          settime($("#find")[0]);
+                          $("#msg").text(rs.data);
+                      }else{
+                         alert(rs.message)
+                      }
+                  },error:function () {
+                      alert("发送验证码失败");
+                  }
+              });
+          }
+      }
+
+
+    function login(){
+        var phone = $("#phone").val();
+        var pnum = $("#pnum").val();
+        $.post({
+            url:"http://localhost:8087/user/yanzhengLogin",
+            data:{
+                "phone":phone,
+                "codeNum":pnum
+            },
+            dataType:"json",
+            success:function (rs) {
+                if(rs.code == 200){
+                    var token = rs.data.token;
+                    sessionStorage.setItem("login_token",token);
+                    location.href="/index.html"
+                }else{
+                    alert(rs.data.code)
+                }
+            },error:function () {
+                alert("何方妖孽")
+            }
+        });
+    }
+    var vipZhuCeDivBootBox;
+    function regin(){
+        //获取指定的元素的html
+        var html=$("#vipZhuCeDiv").html();
+          vipZhuCeDivBootBox=bootbox.dialog({
+            message:html,
+            title:"注册信息"
+        });
+        // 初始化日期插件
+        $("#addBrithday",vipZhuCeDivBootBox).datetimepicker({
+            format: 'yyyy-mm-dd',  //显示格式
+            language:"zh-CN",
+            minView:"3"
+        });
+        //初始化fileINput插件
+        $("#addImg",vipZhuCeDivBootBox).fileinput({
+            uploadUrl:"http://localhost:8087/user/OSSuploadFile", //上传的地址
+            browseClass:"btn btn-success", //按钮样式
+            previewFileType:"text,image",//设置需要预览的文件类型
+            uploadClass:"btn btn-danger",//上传按钮的样式
+            dropZoneEnabled: false
+        }).on("fileuploaded", function(e, data, previewiId, index) {
+            //把文件的访问路径  赋给隐藏域
+            $("#imgValue",vipZhuCeDivBootBox).val(data.response.filePath);
+        });
+        //初始化validate    验证 账号 （不能为空 ）  密码 （不能为null）
+        $("#vipZhuCeForm",vipZhuCeDivBootBox).bootstrapValidator({
+            feedbackIcons: {//相关提示图表
+                valid: 'glyphicon glyphicon-ok',//验证通过
+                invalid: 'glyphicon glyphicon-remove',//验证失败
+                validating: 'glyphicon glyphicon-refresh'//验证时
+            },fields: {//验证的元素
+                addUserName:{
+                    validators:{//验证要求
+                        notEmpty:{
+                            message:"账号不能为空"
+                        },
+                        stringLength: {
+                            min:3,
+                            max:8,
+                            message: '账号长度必须在3到8位之间'
+                        }
+                    }
+                },
+                addUserPhone:{
+                    validators:{
+                        notEmpty:{
+                            message:"手机号不能为空"
+                        },
+                        regexp: {
+                            //
+                            regexp: /^1\d{10}$/,
+                            message: '手机号格式不正确'
+                        },
+                    }
+                }
+            }
+        });
+        //三级联动地区
+        $.post({
+            url:"http://localhost:8087/user/findAreaList",
+            dataType:"json",
+            async:false,
+            success:function (rs) {
+                if(rs.code == 200){
+                    areaList = eval( rs.data);
+                    var areaHtmls = '<option value="-1">请选择省级</option>';
+                    for (var i = 0; i < areaList.length; i++) {
+                        //先判断数据的PID是不是1 是则是省级
+                        if(areaList[i].pId == 1){
+                            areaHtmls+='<option value="'+areaList[i].id+'">'+areaList[i].name+'</option>';
+                        }
+                    }
+                    $("#provice",vipZhuCeDivBootBox).html(areaHtmls);
+                }else{
+                    alert(rs.message)
+                }
+            },error:function () {
+                alert("加载失败")
+            }
+        });
+    }
+
+    var areaList;
+      function showCity(){
+          $("#county",vipZhuCeDivBootBox).html("<option value=\"-1\">请选择市级</option>");
+          var cityHtmls = '<option value="-1">请选择市级</option>';
+          for (var i = 0; i < areaList.length; i++) {
+              //获取省级下拉框的值
+              var proviceId = $("#provice",vipZhuCeDivBootBox).val();
+              if(areaList[i].pId == proviceId){
+                  cityHtmls +='<option value="'+areaList[i].id+'">'+areaList[i].name+'</option>';
+              }
+          }
+          $("#city",vipZhuCeDivBootBox).html(cityHtmls);
+      }
+
+
+      function showCounty(){
+          var countyHtmls = '<option value="-1">请选择县级</option>';
+          for (var i = 0; i < areaList.length; i++) {
+              var cityId = $("#city",vipZhuCeDivBootBox).val();
+              if(areaList[i].pId == cityId){
+                  countyHtmls += '<option value="'+areaList[i].id+'">'+areaList[i].name+'</option>';
+              }
+          }
+          $("#county",vipZhuCeDivBootBox).html(countyHtmls);
+      }
+
+    function addVip(){
+        $('#vipZhuCeForm',vipZhuCeDivBootBox).data("bootstrapValidator").validate();//校验效果
+        var flag = $('#vipZhuCeForm',vipZhuCeDivBootBox).data("bootstrapValidator").isValid();//校验合格
+        if(flag==true){
+            var userName = $("#addUserName",vipZhuCeDivBootBox).val();
+            var userPhone = $("#addUserPhone",vipZhuCeDivBootBox).val();
+            var brithday = $("#addBrithday",vipZhuCeDivBootBox).val();
+            var userImg = $("#imgValue",vipZhuCeDivBootBox).val();
+            var provice = $("#provice",vipZhuCeDivBootBox).val();
+            var city = $("#city",vipZhuCeDivBootBox).val();
+            var county = $("#county",vipZhuCeDivBootBox).val();
+            var areaIds = ","+provice+","+city+","+county+",";
+
+            $.post({
+                url:"http://localhost:8087/user/addVip",
+                dataType:"json",
+                data:{
+                    "userName":userName,
+                    "userPhone":userPhone,
+                    "brithday":brithday,
+                    "userImg":userImg,
+                    "areaIds":areaIds
+                },
+                success:function (rs) {
+                    vipZhuCeDivBootBox.modal("hide");
+                },error:function () {
+                    alert("增加失败")
+                }
+            });
+
+        }
+    }
+
+
+
+
+
+  </script>
+
+</body>
+</html>

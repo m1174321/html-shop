@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../res/static/css/main.css">
+  <link rel="stylesheet" type="text/css" href="../res/layui/css/layui.css">
+  <script type="text/javascript" src="../res/layui/layui.js"></script>
+  <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+</head>
+<body>
+
+  <div class="site-nav-bg">
+    <div class="site-nav w1200">
+      <p class="sn-back-home">
+        <i class="layui-icon layui-icon-home"></i>
+        <a href="#">首页</a>
+      </p>
+      <div class="sn-quick-menu">
+        <div class="login"><a href="orderData.html">订单查询</a></div>
+        <div class="login"><a href="login.html">登录</a></div>
+        <div class="sp-cart"><a href="shopcart.html">购物车</a><span id ="count_wxwu"></span></div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="header">
+    <div class="headerLayout w1200">
+      <div class="headerCon">
+        <h1 class="mallLogo">
+          <a href="#" title="母婴商城">
+            <img src="../res/static/img/logo.png">
+          </a>
+        </h1>
+        <div class="mallSearch">
+          <form action="" class="layui-form" novalidate>
+            <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+            <button class="layui-btn" lay-submit lay-filter="formDemo">
+                <i class="layui-icon layui-icon-search"></i>
+            </button>
+            <input type="hidden" name="" value="">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="content content-nav-base shopcart-content">
+    <div class="main-nav">
+      <div class="inner-cont0">
+        <div class="inner-cont1 w1200">
+          <div class="inner-cont2">
+            <a href="commodity.html" class="active">所有商品</a>
+            <a href="buytoday.html">今日团购</a>
+            <a href="information.html">母婴资讯</a>
+            <a href="about.html">关于我们</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="banner-bg w1200">
+      <h3>夏季清仓</h3>
+      <p>宝宝被子、宝宝衣服3折起</p>
+    </div>
+    <div class="cart w1200">
+      <div class="cart-table-th">
+        <div class="th th-chk">
+          <div class="select-all">
+            <div class="cart-checkbox">
+              <input class="check-all check" id="allCheckked" onchange='qx()' type="checkbox">
+            </div>
+          <label>&nbsp;&nbsp;全选</label>
+          </div>
+        </div>
+        <div class="th th-item">
+          <div class="th-inner">
+            商品
+          </div>
+        </div>
+        <div class="th th-price">
+          <div class="th-inner">
+            单价
+          </div>
+        </div>
+        <div class="th th-amount">
+          <div class="th-inner">
+            数量
+          </div>
+        </div>
+        <div class="th th-sum">
+          <div class="th-inner">
+            小计
+          </div>
+        </div>
+        <div class="th th-op">
+          <div class="th-inner">
+            操作
+          </div>
+        </div>  
+      </div>
+      <div class="OrderList">
+        <div class="order-content" id="list-cont">
+
+
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+
+
+      <div class="FloatBarHolder layui-clear">
+        <div class="th th-chk">
+          <div class="select-all">
+            <div class="cart-checkbox">
+
+            </div>
+            <label>&nbsp;&nbsp;已选<span class="Selected-pieces" id = "inventory_wxwu">0</span>件</label>
+          </div>
+        </div>
+        <div class="th batch-deletion">
+          <span class="batch-dele-btn">批量删除</span>
+        </div>
+        <div class="th Settlement">
+          <button class="layui-btn" onclick="toOrder()">结算</button>
+        </div>
+        <div class="th total">
+          <p>应付：<span class="pieces-total" id = "sum_wxwu">0</span></p>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+<script type="text/javascript">
+
+  $(function () {
+      initProductCat();
+
+  })
+  $.ajaxSetup({
+      headers:{
+          "token":sessionStorage.getItem("login_token")
+      },
+      // complete:function (response,b,c) {
+      //     var res =  response.responseJSON;
+      //     if(res.code == 10000){
+      //         alert("好兄弟，你没登录")
+      //         location.href="/login.html"
+      //     }
+      // }
+  })
+
+var proGwcList;
+  var statusCount = 0;
+  function initProductCat(){
+      $.post({
+          url:"http://localhost:8087/car/findCar",
+          dataType:"json",
+          success:function (rs) {
+              if(rs.code == 10000){
+                  location.href="login.html";
+              }else if(rs.code == 200){
+                  var proHtml = "";
+                  var statuHtml="";
+                  proGwcList =  eval(rs.data);
+
+                  for (var i = 0; i < proGwcList.length; i++) {
+                      productCar = proGwcList[i];
+                      var statusHtml = "<input class=\"CheckBoxShop check\" id='"+productCar.id+"'  onclick='checkedBox()' type=\"checkbox\" num=\"all\" name=\"select-all\" value='"+productCar.money+"'> ";
+                      if(productCar.status == true){
+                          statusHtml= "<input class=\"CheckBoxShop check\" id='"+productCar.id+"' checked onclick='checkedBox()' type=\"checkbox\" num=\"all\" name=\"select-all\" value='"+productCar.money+"'> ";
+                          statusCount++;
+                      }
+                      proHtml+="<ul class=\"item-content layui-clear\"><li class=\"th th-chk\"><div class=\"select-all\"><div class=\"cart-checkbox\">" +
+                          statusHtml +
+                          "</div></div></li>";
+                      proHtml+="<li class=\"th th-item\"><div class=\"item-cont\"><a href=\"javascript:;\"><img width='100px' height='100px' src='"+productCar.productImg+"' alt=\"\"></a>";
+                      proHtml+="<div class=\"text\"><div class=\"title\">"+productCar.productName+"</div></div></div></li>";
+                      proHtml+="<li class=\"th th-price\"><span class=\"th-su\">"+productCar.price+"</span></li>";
+                      proHtml+="<li class=\"th th-amount\"><div class=\"box-btn layui-clear\"><div class=\"less layui-btn\" onclick='oneDelRedis("+productCar.id+")'>-</div><input class=\"Quantity-input\" type=\"\" name=\"\" id='count_pro"+productCar.id+"' value='"+productCar.productcount+"' disabled=\"disabled\"><div class=\"add layui-btn\" id='countAdd_wxwu' onclick='oneAddRedis("+productCar.id+")'>+</div></div></li>";
+                      proHtml+="<li class=\"th th-sum\"><span class=\"sum\">"+productCar.money+"</span></li><li class=\"th th-op\"><span class=\"dele-btn\" onclick='delProRedis("+productCar.id+")'>删除</span></li></ul>";
+                      $("#list-cont").html(proHtml);
+                  }
+                  if(statusCount==proGwcList.length){
+                      $("#allCheckked").prop("checked",true);
+                     // $("#yixuanCheck_wxwu").prop("checked",true);
+                      checkedBox();
+                  }
+              }else{
+                  alert("后台错误")
+              }
+          },error:function () {
+              alert("何方妖孽")
+          }
+      });
+  }
+
+  function qx(){
+      var checked = document.getElementById("allCheckked").checked;
+      var name = document.getElementsByName("select-all");
+      if(checked==true){
+          for (var i = 0; i < name.length; i++) {
+              name[i].checked=true;
+          }
+      }else{
+          for (var i = 0; i < name.length; i++) {
+              name[i].checked=false;
+          }
+      }
+      var cheched = 0;
+      var sumNum = 0;
+      $("[name='select-all']:checked").each(function () {
+          sumNum = sumNum+Number(this.value);
+          cheched++;
+      })
+      $("#inventory_wxwu").text(cheched);
+      $("#sum_wxwu").text(sumNum);
+  }
+
+  function checkedBox(){
+      var cheched = 0;
+      var sumNum = 0;
+      var ids = "";
+      $("[name='select-all']:checked").each(function () {
+          sumNum = sumNum+Number(this.value);
+          ids += this.id+","
+          cheched++;
+      })
+      if(proGwcList.length > cheched){
+          $("#allCheckked").prop("checked",false);
+          //$("#yixuanCheck_wxwu").prop("checked",false);
+      }else if (proGwcList.length == cheched){
+          $("#allCheckked").prop("checked",true);
+          //$("#yixuanCheck_wxwu").prop("checked",true);
+      }
+      $("#inventory_wxwu").text(cheched);
+      $("#sum_wxwu").text(sumNum);
+      $.post({
+         url:"http://localhost:8087/car/updateGwcStatusByIds",
+         data:{
+             "ids":ids
+         },
+          dataType:"json",
+          success:function(rs){
+              if(rs.code == 200){
+                  initProductCat();
+              }else{
+                  location.href="login.html"
+              }
+          },error:function () {
+              alert("何方妖孽")
+          }
+      });
+  }
+
+
+
+
+  function delProRedis(id){
+      $.post({
+          url:"http://localhost:8087/car/delCar",
+          dataType:"json",
+          data:{
+              "id":id
+          },
+          success:function (rs) {
+                var count =  rs.data;
+                $("#count_wxwu").text(count);
+                initProductCat();
+          },error:function () {
+              alert("后台错误")
+          }
+      })
+  }
+
+  function oneAddRedis(id){
+      $.post({
+          url:"http://localhost:8087/car/addCar",
+          dataType:"json",
+          data:{
+              "id":id,
+              "count":1
+          },
+          crossDomain: true,
+          success:function (rs) {
+              if(rs.code == 200){
+                  var count =  $("#count_pro"+id).val();
+                  if(rs.data>  0){
+                      var num = $("#count_pro"+id).val();
+                      $("#sum_wxwu").text(sumNum);
+                      initProductCat();
+                  }else{
+                      $("#countAdd_wxwu"+id).prop('disabled','disabled');
+                  }
+              }else{
+                  alert("怎么回事")
+              }
+          },error:function () {
+              alert("error");
+          }
+      });
+  }
+
+  function oneDelRedis(id){
+      $.post({
+          url:"http://localhost:8087/car/addCar",
+          dataType:"json",
+          data:{
+              "id":id,
+              "count":-1
+          },
+          crossDomain: true,
+          success:function (rs) {
+              if(rs.code == 200){
+                  var count =  $("#count_pro"+id).val();
+                  if(count <=1){
+                      delProRedis(id);
+                  }else{
+                      $("#count_pro"+id).val(Number(count)-1);
+                      initProductCat();
+                  }
+              }else{
+                  alert("怎么回事")
+              }
+          },error:function () {
+              alert("error");
+          }
+      });
+  }
+
+  function toOrder(){
+      location.href="order.html"
+  }
+
+
+
+
+
+  layui.config({
+    base: '../res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+  }).use(['mm','jquery','element','car'],function(){
+    //var mm = layui.mm,$ = layui.$,element = layui.element,car = layui.car;
+   //  car.init()
+  });
+</script>
+</body>
+</html>

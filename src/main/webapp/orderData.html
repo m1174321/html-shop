@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
+    <link href="./js/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="./js/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./js/DataTables/css/dataTables.bootstrap.min.css">
+    <script src="./js/DataTables/js/jquery.dataTables.min.js"></script>
+    <script src="./js/bootbox/bootbox.all.min.js"></script>
+    <script src="./js/bootstrap-datetimepicker/js/moment-with-locales.js"></script>
+    <script src="./js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+    <link href="./js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script type="text/javascript" src="./js/date-format.js"></script>
+
+</head>
+<body>
+<div>
+    <h3>订单详情</h3>
+    <table border="1" id="orderDiv">
+
+    </table>
+</div>
+</body>
+<script>
+    $(function () {
+        initOrder();
+        //生成一个请求的唯一标示
+        sendFlag=new Date().getTime();
+    })
+    $.ajaxSetup({
+        headers:{
+            "token":sessionStorage.getItem("login_token")
+        }
+    })
+
+
+    var sendFlag;
+    var orderList;
+    function initOrder(){
+        $.post({
+            url:"http://localhost:8087/order/findOrder",
+            dataType:"json",
+            success:function (rs) {
+                if(rs.code == 10000){
+                    location.href="login.html"
+                }else{
+                     orderList =  rs.data;
+                    var orderHtml = "<tr>\n" +
+                        "            <td>会员用户订单</td>\n" +
+                        "            <td>订单地址</td>\n" +
+                        "            <td>支付类型</td>\n" +
+                        "            <td>总金额</td>\n" +
+                        "            <td>支付状态</td>\n" +
+                        "        </tr>";
+                    for (var i = 0; i < orderList.length; i++) {
+                        var order = orderList[i];
+                        var payTypeHtml = "";
+                        if(order.payType == 1){
+                            payTypeHtml = '<td>在线支付</td>';
+                        }else{
+                            payTypeHtml = '<td>货到付款</td>';
+                        }
+                        var payStatusHtml = "";
+                        if(order.payStatus == 2){
+                            payStatusHtml='<td>支付成功</td>';
+                        }else{
+                            payStatusHtml='<td>支付失败<button type="button" onclick="toWexin('+order.id+')">支付详情</button></td>';
+                        }
+                        orderHtml+= '<tr> <td>'+order.vipId+'</td>\n' +
+                            '          <td>'+order.addressId+'</td>\n' +
+                            payTypeHtml +
+                            '          <td>'+order.totalmoney+'</td>\n' +
+                            payStatusHtml +
+                            '        </tr>';
+                    }
+                    $("#orderDiv").html(orderHtml);
+                }
+            },error:function () {
+                alert("何方妖孽")
+            }
+        });
+    }
+
+    function toWexin(id) {
+        for (var i = 0; i < orderList.length; i++) {
+            if(orderList[i].id == id){
+                sessionStorage.setItem("orderId",orderList[i].id)
+                sessionStorage.setItem("moneyAll",orderList[i].totalmoney)
+                location.href="weixin.html";
+            }
+        }
+    }
+
+
+</script>
+</html>

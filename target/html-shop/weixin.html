@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="./js/qrcode.min.js"></script>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <title>Title</title>
+</head>
+<body>
+<div id="qrcode"></div>
+<div>
+    你的订单号为:<font id="orderId" color="red"></font>
+    金额:<font id="money" color="red"></font>
+    <font id="payStatus" color="red"></font>
+</div>
+</body>
+<script>
+
+    $(function () {
+        initWechat();
+    })
+    // window.onload = function () {
+    //     initOrderDetail();
+    // }
+
+    $.ajaxSetup({
+        headers:{
+            "token":sessionStorage.getItem("login_token")
+        },
+    })
+
+    function initWechat(){
+        var id = sessionStorage.getItem("orderId")
+        var item = sessionStorage.getItem("moneyAll");
+       $.post({
+           url:"http://localhost:8087/car/payWechat",
+           dataType:"json",
+           data:{
+               "orderId":id,
+               "moneyAll":item
+           },
+           success:function (rs) {
+               if(rs.data.code==200){
+                   codeUrl = rs.data.url;
+                   new QRCode(document.getElementById("qrcode"), codeUrl);  // 设置要生成二维码的链接
+                   sessionStorage.setItem("mill",rs.data.mill);
+                   $("#orderId").html(rs.data.mill);
+                   $("#money").html(rs.data.moneyAll);
+                   // 页面请求支付状态  5秒
+                   setInterval(initOrderDetail,1000*5);
+               }else {
+                   alert(rs.data.info)
+               }
+           },error:function () {
+           }
+       });
+    }
+
+    function initOrderDetail() {
+        //设置时间 5-秒  1000-毫秒  这里设置你自己想要的时间
+        //setTimeout(initOrderDetail,5*1000);
+        $.post({
+            url:"http://localhost:8087/car/queryOrderDetail",
+            dataType:"json",
+            data:{
+                "orderId":sessionStorage.getItem("orderId"),
+                "mill":sessionStorage.getItem("mill")
+            },
+            success:function (rs) {
+                if(rs.data==0){
+                    alert("支付异常： 请联系客户");
+                }else if (rs.data==1) {
+                    location.href="success.html"
+                }else if(rs.data==2){
+                    $("#payStatus").html("用户支付中");
+                }else if(rs.data==3){
+                    $("#payStatus").html("用户还没操作");
+                }
+            },error:function () {
+            }
+        });
+    }
+
+
+
+</script>
+</html>

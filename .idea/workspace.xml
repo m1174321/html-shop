@@ -1,0 +1,1767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="html-shop:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="520c2daf-9e0a-4b3d-aa25-b18ffb468605" name="Default Changelist" comment="html">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html-shop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/commodity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/common/commons.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/Chinese.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/DataTables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootbox/bootbox.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootbox/bootbox.locales.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootbox/bootbox.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-3.3.7-dist/js/npm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/bootstrap-datetimepicker.zh-CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-datetimepicker/js/moment-with-locales.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/CODE_OF_CONDUCT.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/FUNDING.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/PULL_REQUEST_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.github/stale.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/CHANGE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/css/fileinput-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/css/fileinput-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/css/fileinput.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/css/fileinput.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/examples/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/img/loading-sm.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/fileinput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/fileinput.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/LANG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/cr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/kr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/kz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/pt-BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/uz.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/zh-TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/locales/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/piexif.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/piexif.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/purify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/purify.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/sortable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/js/plugins/sortable.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/nuget/Package.nuspec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/nuget/build.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/scss/fileinput-rtl.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/scss/fileinput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/scss/themes/explorer-fa/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/scss/themes/explorer-fas/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/scss/themes/explorer/theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fa/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fa/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fas/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fas/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer-fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer/theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/explorer/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/fa/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/fa/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/fas/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/fas/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/gly/theme.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/themes/gly/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/CONTRIBUTORS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/Gruntfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/bootstrapValidator.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/ajaxSubmit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/ajaxSubmit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/attribute.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/choice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/collapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/container.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/container2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/container3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/container4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/defaultMessage.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/dynamic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/dynamic2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/dynamic3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/dynamic4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/enable2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/event2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/event3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/feedbackIcons.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/file.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/group.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/html5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/i18n.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/invisible.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/message.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/multiple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/remote.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/remote.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/remote2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/selector.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/selector2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/specialName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/submitHandler.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/tab.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/target.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/demo/validators.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/css/bootstrapValidator.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/bootstrapValidator.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/dist/js/language/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/screenshots/demo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/css/bootstrapValidator.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/bootstrapValidator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/ar_MA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/be_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/be_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/bg_BG.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/cs_CZ.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/da_DK.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/de_DE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/en_US.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/es_CL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/es_ES.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/fa_IR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/fr_FR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/gr_EL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/hu_HU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/id_ID.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/it_IT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/ja_JP.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/nl_NL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/no_NO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/pl_PL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/pt_BR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/ro_RO.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/ru_RU.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/sr_RS.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/sv_SE.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/th_TH.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/tr_TR.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/ua_UA.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/vi_VN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/zh_CN.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/language/zh_TW.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/base64.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/between.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/blank.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/choice.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/creditCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/cusip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/cvv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/different.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/digits.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/ean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/emailAddress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/file.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/greaterThan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/grid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/hex.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/hexColor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/identical.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/imei.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/imo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/integer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/ip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/isbn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/isin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/ismn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/issn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/lessThan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/mac.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/meid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/notEmpty.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/numeric.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/phone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/regexp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/remote.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/rtn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/sedol.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/siren.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/siret.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/step.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/stringCase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/stringLength.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/uri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/uuid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/vat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/vin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/src/js/validator/zipCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/container.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/dynamic.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/enable.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/event.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/excluded.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/group.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/i18n.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/between.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/callback.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/creditCard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/ean.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/emailAddress.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/greaterThan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/iban.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/imo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/ip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/isbn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/isin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/ismn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/issn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/lessThan.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/meid.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/phone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/uri.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/vat.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/validator/zipCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/test/spec/verbose.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/boot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/console.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/jasmine-html.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/jasmine.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/jasmine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jasmine/jasmine_favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jquery/jquery-1.10.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/vendor/jquery/jquery-1.10.2.min.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/date-format.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/qrcode.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/element.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/qs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/API_cn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/API_en.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/common_ie6.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/apiMenu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/apiMenu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/chinese.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/contact-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/english.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/header-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/lightbulb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/overlay_arrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/overlay_arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/overlay_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/overlay_close_IE6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/jquery-1.6.2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/apiCss/zTreeStyleForApi.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/fn.zTree._z.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/fn.zTree.destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/fn.zTree.getZTreeObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/fn.zTree.init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.autoParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.contentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.dataFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.dataType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.headers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.otherParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.async.xhrFields.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeAsync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeCollapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeDblClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeDrag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeDragOpen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeEditName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeMouseDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeMouseUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeRemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeRename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.beforeRightClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onAsyncError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onAsyncSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onCollapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onDblClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onDrag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onDragMove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onMouseDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onMouseUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onNodeCreated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onRemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onRename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.callback.onRightClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.autoCheckTrigger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.chkDisabledInherit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.chkStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.chkboxType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.nocheckInherit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.check.radioType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.keep.leaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.keep.parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.checked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.isHidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.isParent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.key.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.simpleData.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.simpleData.idKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.simpleData.pIdKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.data.simpleData.rootPId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.autoExpandTrigger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.autoOpenTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.borderMax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.borderMin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.inner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.isCopy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.isMove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.maxShowNodeNum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.minMoveSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.next.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.drag.prev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.editNameSelectAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.removeTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.renameTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.showRemoveBtn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.edit.showRenameBtn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.treeId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.treeObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.addDiyDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.addHoverDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.autoCancelSelected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.dblClickExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.expandSpeed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.fontCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.nameIsHTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.removeHoverDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.selectedMulti.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.showIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.showLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.showTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/setting.view.txtSelectedEnable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.check_Child_State.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.check_Focus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.checked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.checkedOld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.diy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.editNameFlag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getCheckStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getNextNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getParentNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.getPreNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.iconClose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.iconOpen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.iconSkin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isAjaxing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isFirstNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isHidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isHover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isLastNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.isParent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.parentTId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.tId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.target.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/treeNode.zAsync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.addNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.cancelEditName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.cancelSelectedNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.checkAllNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.checkNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.copyNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.editName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.expandAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.expandNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getChangeCheckedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getCheckedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodeByParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodeByTId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodeIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodesByFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodesByParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getNodesByParamFuzzy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.getSelectedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.hideNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.hideNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.moveNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.reAsyncChildNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.reAsyncChildNodesPromise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.refresh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.removeChildNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.removeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.selectNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.setChkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.setEditable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.showNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.showNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.transformToArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.transformTozTreeNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/cn/zTreeObj.updateNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/fn.zTree._z.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/fn.zTree.destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/fn.zTree.getZTreeObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/fn.zTree.init.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.autoParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.contentType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.dataFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.dataType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.headers.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.otherParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.type.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.async.xhrFields.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeAsync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeCollapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeDblClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeDrag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeDragOpen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeEditName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeMouseDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeMouseUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeRemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeRename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.beforeRightClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onAsyncError.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onAsyncSuccess.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onCollapse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onDblClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onDrag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onDragMove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onDrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onMouseDown.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onMouseUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onNodeCreated.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onRemove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onRename.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.callback.onRightClick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.autoCheckTrigger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.chkDisabledInherit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.chkStyle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.chkboxType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.nocheckInherit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.check.radioType.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.keep.leaf.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.keep.parent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.checked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.isHidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.isParent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.title.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.key.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.simpleData.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.simpleData.idKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.simpleData.pIdKey.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.data.simpleData.rootPId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.autoExpandTrigger.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.autoOpenTime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.borderMax.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.borderMin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.inner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.isCopy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.isMove.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.maxShowNodeNum.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.minMoveSize.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.next.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.drag.prev.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.editNameSelectAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.enable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.removeTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.renameTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.showRemoveBtn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.edit.showRenameBtn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.treeId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.treeObj.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.addDiyDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.addHoverDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.autoCancelSelected.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.dblClickExpand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.expandSpeed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.fontCss.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.nameIsHTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.removeHoverDom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.selectedMulti.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.showIcon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.showLine.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.showTitle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/setting.view.txtSelectedEnable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.check_Child_State.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.check_Focus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.checked.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.checkedOld.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.children.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.diy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.editNameFlag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getCheckStatus.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getNextNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getParentNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getPath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.getPreNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.iconClose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.iconOpen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.iconSkin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isAjaxing.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isFirstNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isHidden.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isHover.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isLastNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.isParent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.level.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.name.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.open.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.parentTId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.tId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.target.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/treeNode.zAsync.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.addNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.cancelEditName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.cancelSelectedNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.checkAllNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.checkNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.copyNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.destroy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.editName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.expandAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.expandNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getChangeCheckedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getCheckedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodeByParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodeByTId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodeIndex.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodesByFilter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodesByParam.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getNodesByParamFuzzy.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.getSelectedNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.hideNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.hideNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.moveNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.reAsyncChildNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.reAsyncChildNodesPromise.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.refresh.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.removeChildNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.removeNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.selectNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.setChkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.setEditable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.setting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.showNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.showNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.transformToArray.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.transformTozTreeNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/api/en/zTreeObj.updateNode.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/awesomeStyle/awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/awesomeStyle/awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/awesomeStyle/fa.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/awesomeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/metroStyle/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/metroStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/metroStyle/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/metroStyle/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/metroStyle/metroStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/css/zTreeStyle/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/asyncData/getNodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/asyncData/getNodesForBigData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/bigdata/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/bigdata/diy_async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/bigdata/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/async_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/custom_font.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/custom_icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/custom_iconSkin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/expand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/noicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/noline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/otherMouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/searchNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/simpleData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/standardData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/update_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/core/url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox_chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox_count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox_halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/checkbox_nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/radio_chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/radio_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/radio_halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/excheck/radio_nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/async_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/drag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/drag_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/drag_super.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/edit_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/edit_super.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exedit/multiTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exhide/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exhide/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/exhide/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/asyncForAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/checkbox_radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/diydom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/dragWithOther.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/fuzzySearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/left_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/left_menuForOutLook.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/left_menuForOutLook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/left_menuForOutLook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/metro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/oneclick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/oneroot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/rightClickMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/select_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/select_menu_checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/select_menu_radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/cn/super/singlepath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/asyncData/getNodes.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/asyncData/getNodesForBigData.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/bigdata/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/bigdata/diy_async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/bigdata/page.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/async.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/async_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/click.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/custom_font.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/custom_icon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/custom_iconSkin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/expand.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/noicon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/noline.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/otherMouse.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/searchNodes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/simpleData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/standardData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/update_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/core/url.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox_chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox_count.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox_halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/checkbox_nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/radio_chkDisabled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/radio_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/radio_halfCheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/excheck/radio_nocheck.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/async_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/drag.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/drag_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/drag_super.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/edit_fun.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/edit_super.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exedit/multiTree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exhide/checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exhide/common.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/exhide/radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/asyncForAll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/awesome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/checkbox_radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/diydom.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/dragWithOther.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/fuzzySearch.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/left_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/left_menuForOutLook.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/left_menuForOutLook.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/left_menuForOutLook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/metro.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/oneclick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/oneroot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/rightClickMenu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/select_menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/select_menu_checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/select_menu_radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/singlepath.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/en/super/ztree.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/demo/js/fuzzysearch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery-1.4.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.core.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.core.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.excheck.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.excheck.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.exedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.exedit.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.exhide.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/js/jquery.ztree.exhide.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/zTree-zTree_v3-master/log v3.x.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/orderData.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/layui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/layui.mobile.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/code.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/icon-ext.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/loading-0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/loading-1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/css/modules/layer/default/loading-2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/font/iconfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/font/iconfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/font/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/font/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/0.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/37.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/38.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/39.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/40.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/41.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/42.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/43.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/44.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/45.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/46.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/47.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/48.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/49.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/50.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/51.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/52.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/53.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/54.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/55.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/56.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/57.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/58.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/59.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/60.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/61.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/62.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/63.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/64.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/65.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/66.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/67.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/68.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/69.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/70.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/71.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/8.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/images/face/9.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/carousel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/element.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/flow.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/layedit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/layer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/laypage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/rate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/tree.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/upload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/lay/modules/util.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/layui.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/layui/layui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/banner1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/buy_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/car-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/details_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/details_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/details_imgbig.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/hot9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/icon_gou.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/img12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/load_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/more1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/more2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/more3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/more4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/more5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/new1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/new2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/off-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/paging_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/paging_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/paging_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/s_img9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/sort-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/tuan_img_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/img/us_img3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/js/util/car.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/res/static/js/util/mm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/shopcart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/weixin.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1853717511">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.1" value="4" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.29" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="html" value="109" />
+          <entry key="js" value="5" />
+          <entry key="jsp" value="7" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="HTML" value="109" />
+          <entry key="JSP" value="7" />
+          <entry key="JavaScript" value="5" />
+          <entry key="XML" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="html" value="11458" />
+          <entry key="js" value="4" />
+          <entry key="jsp" value="13" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="11458" />
+          <entry key="JSP" value="13" />
+          <entry key="JavaScript" value="4" />
+          <entry key="PLAIN_TEXT" value="5" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/weixin.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/order.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="509">
+              <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+                <element signature="n#style#1;n#li#0;n#!!top" expanded="true" />
+                <element signature="e#523#527#0" expanded="true" />
+                <element signature="e#528#535#0" expanded="true" />
+                <element signature="e#561#568#0" expanded="true" />
+                <element signature="e#568#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>注册</find>
+      <find>regin</find>
+      <find>addVip</find>
+      <find>queryCode</find>
+      <find>allCheckked</find>
+      <find>inventory_wxwu</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ADD_SUFFIX_TO_CHERRY_PICKS_OF_PUBLISHED_COMMITS" value="false" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/common/common.js.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/common.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/common.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/commons.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/common/ajax.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/about.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderTwo.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/commodity.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/details.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/orderData.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/shopcart.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/weixin.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/order.html" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenproject\repository" />
+        <option name="mavenHome" value="D:/Package/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\Package\maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="html-shop Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/src/main/webapp/js/bootstrap-fileinput-v5.0.6-17/package.json" />
+      <path value="$PROJECT_DIR$/src/main/webapp/js/bootstrapvalidator-v0.5.2-0/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="900" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="true" />
+      <autoscrollToSource ProjectPane="false" />
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="html-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-shop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="html-shop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="html-shop" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1596634820699" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\html-shop\src\main\webapp" />
+      <recent name="F:\html-shop\src\main\webapp\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.45" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+      <option name="OPEN_IN_BROWSER" value="false" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8085/" />
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="html-shop:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_html-shop" />
+        <option name="HTTP_PORT" value="8085" />
+        <option name="JNDI_PORT" value="1104" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51506" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="html-shop:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="520c2daf-9e0a-4b3d-aa25-b18ffb468605" name="Default Changelist" comment="" />
+      <created>1595386694256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595386694256</updated>
+      <workItem from="1595386696975" duration="18704000" />
+      <workItem from="1595460843433" duration="19994000" />
+      <workItem from="1595548328152" duration="12711000" />
+      <workItem from="1595649202064" duration="29635000" />
+      <workItem from="1595806174857" duration="27608000" />
+      <workItem from="1595893794547" duration="50127000" />
+      <workItem from="1596077508783" duration="18447000" />
+      <workItem from="1596156193459" duration="3891000" />
+      <workItem from="1596264674637" duration="2032000" />
+      <workItem from="1596327085008" duration="14525000" />
+      <workItem from="1596438154970" duration="6210000" />
+      <workItem from="1596500647089" duration="1041000" />
+      <workItem from="1596505605727" duration="11458000" />
+      <workItem from="1596588630783" duration="14295000" />
+      <workItem from="1596674328674" duration="2709000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="233387000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.036827195" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3592645" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.3281471" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.3297587" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1689008" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17114569" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3592645" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="html" />
+    <option name="LAST_COMMIT_MESSAGE" value="html" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/common.js.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/date-format.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1003" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/userVipList.jsp" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/common.jsp" />
+    <entry file="file://D:/下载文件/实训一俊哥/1908Two/softwares/shop_html/src/main/webapp/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="197" column="26" lean-forward="true" selection-start-line="197" selection-start-column="26" selection-end-line="197" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/下载文件/实训一俊哥/1908Two/layuiMaternalBabyMall-v1.0.0/html/shopcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="138" column="15" lean-forward="true" selection-start-line="105" selection-start-column="10" selection-end-line="138" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/common.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="53" lean-forward="true" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/ajax.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/commons.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="58" lean-forward="true" selection-start-column="58" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/qrcode.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/buytoday.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/about.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderTwo.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/commodity.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="121" column="95" selection-start-line="121" selection-start-column="93" selection-end-line="121" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="155" column="34" selection-start-line="155" selection-start-column="34" selection-end-line="155" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2726">
+          <caret line="224" column="44" selection-start-line="224" selection-start-column="43" selection-end-line="224" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1919">
+          <caret line="130" column="14" selection-start-line="130" selection-start-column="14" selection-end-line="130" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/success.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/shopcart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1791">
+          <caret line="169" column="36" selection-start-line="169" selection-start-column="36" selection-end-line="169" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/orderData.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="90" column="40" selection-start-line="90" selection-start-column="40" selection-end-line="90" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="189" column="28" selection-start-line="189" selection-start-column="28" selection-end-line="189" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#li#0;n#!!top" expanded="true" />
+            <element signature="n#style#1;n#li#0;n#!!top" expanded="true" />
+            <element signature="e#523#527#0" expanded="true" />
+            <element signature="e#528#535#0" expanded="true" />
+            <element signature="e#561#568#0" expanded="true" />
+            <element signature="e#568#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/weixin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>html-shop:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>html-shop</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: junit:junit:4.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
